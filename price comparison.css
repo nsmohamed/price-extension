@@ -1,0 +1,24 @@
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.price-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.price-item .price {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #3f51b5;
+  font-weight: bold;
+}
